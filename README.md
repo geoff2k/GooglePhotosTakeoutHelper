@@ -123,6 +123,22 @@ I spent **a lot of** time fixing bugs and making this work stable 💖 - would b
 
  - If you want something more centralized but also self-hosted, [Nextcloud](https://nextcloud.com) is a nice choice, but its approach to photos is still not perfect. (And you need to set up your own server)
 
+### Building The Executable
+
+#### On MacOs
+
+Install [homebrew](https://brew.sh/) using the instructions on the site.
+
+Install [dart]((https://dart.dev/) using the [Install the Dart SDK using a package manager](https://dart.dev/get-dart#install) instructions for macOS.
+
+Clone this repository (e.g. `git clone git@github.com:TheLastGimbus/GooglePhotosTakeoutHelper.git`).
+
+From the `GooglePhotosTakeoutHelper` of your clone execute the following command to build the executable:
+
+```bash
+dart compile exe bin/gpth.dart
+```
+
 ### Other Takeout projects
 I used this tool to export my notes to markdown - you can then edit them with any markdown editor you like :)
 
